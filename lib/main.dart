@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:getx_application/Counter_App_Ex1/homepage.dart';
 import 'package:getx_application/Example%203/homepage3.dart';
 import 'package:getx_application/Exmple%202/homepage2.dart';
+import 'package:getx_application/ImagePicker/homepage4.dart';
 import 'package:getx_application/components/routes.dart';
 
 void main() {
@@ -17,12 +18,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      getPages: allPages,
+      // getPages: allPages,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage3(),
+      home: HomePage4(),
     );
   }
 }
