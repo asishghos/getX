@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_application/Counter_App_Ex1/homepage.dart';
+import 'package:getx_application/Exmple%202/homepage2.dart';
 import 'package:getx_application/components/routes.dart';
-import 'package:getx_application/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: HomePage2(),
     );
   }
 }
